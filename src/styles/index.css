@@ -234,8 +234,9 @@ input:focus, select:focus, textarea:focus { outline: none; }
 
 /* ============== Form controls ============== */
 .field { display: flex; flex-direction: column; gap: 6px; }
-.field label, .field .label { font-size: 13px; font-weight: 600; color: var(--text-800); display: flex; align-items: center; justify-content: space-between; }
-.field .label .req { color: #d04747; margin-left: 2px; }
+.field label, .field .label { font-size: 13px; font-weight: 600; color: var(--text-800); display: flex; align-items: center; gap: 4px; }
+.field .label .req { color: #d04747; margin-left: 0; }
+.field .label .unit-toggle { margin-left: auto; }
 .field .hint { font-size: 12px; color: var(--text-500); }
 
 .input-wrap {
